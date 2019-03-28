@@ -8,8 +8,9 @@ int main(){
 
 	int count = 0;
 	for (int i=0;i<palabra.length();++i){
-		if (palabra[i] == 'a' || palabra[i] == 'e' || palabra[i] == 'i' || palabra[i] == 'o' || palabra[i] == 'u')
+		if (palabra[i] == 'a' || palabra[i] == 'e' || palabra[i] == 'i' || palabra[i] == 'o' || palabra[i] == 'u'){
 		count++;
+		}
 	}
 
 	cout<<count<<endl;
